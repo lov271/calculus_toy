@@ -1,0 +1,112 @@
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++
+
+### C ###
+# Prerequisites
+*.d
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# VS Code
+.vscode/*
+tasks.json
+c_cpp_properties.json
+launch.json
+settings.json
+.vscode
+*.dsYM
+
+# Code Runner
+tempCodeRunnerFile.*
+#a.c
+
+# IDA
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.i64
+
+# Trace
+*.npy
+*.bin
+
+# Executables
+
+.DS_Store
+# End of https://www.toptal.com/developers/gitignore/api/c,c++
